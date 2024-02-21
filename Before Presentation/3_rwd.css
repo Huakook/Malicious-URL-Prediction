@@ -1,0 +1,94 @@
+.menu
+{
+    display: flex;
+    flex: none;
+    line-height: 50px;
+    text-align: center;
+}
+
+.desktop-menuitem{
+    display: block;/*block ->> display*/
+}
+
+.mobile-menuitem{
+    display: none;
+}
+
+.menuitem
+{
+    /*block*/
+    flex: auto;
+    background-color:black;
+    /*padding: 10px;*/
+    margin-left: 10px;
+    /*text*/
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.LOGO
+{
+    /*block*/
+    flex: none;
+    background-color: darkcyan;
+    width: 200px;
+    height: 50px;
+    /*text*/
+    font-size: 30px;
+    color :rgb(270, 230, 150);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+input{
+    width: 400px;
+}
+
+select{
+    width: auto;
+}
+
+.horimg{
+    width: 100%;
+    height: auto;
+}
+
+.verimg{
+    height: 700px;
+    width: 400px;
+}
+
+.menuListItem
+{
+    padding: 10px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+
+@media( max-width: 500px ) {
+    .mobile-menuitem{
+        display: block;
+    }
+    .desktop-menuitem{
+        display: none;
+        position: absolute;
+    }
+    .menuitem{
+        font-size: 20px;
+        flex-direction: column;
+    }
+}
+
+form{
+    font-size: 20px;
+    padding: 5px 2px;
+}
+
+form > input{
+    padding: 2px 7px;
+    border: 5px;
+    font-size: 15px;
+    border-radius: 5px
+}

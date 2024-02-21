@@ -1,0 +1,10 @@
+features,accuracy
+without_Query_Length,0.9234177789884681
+without_Domain_Token_Count,0.9256969036593118
+without_Path_Token_Count,0.9287932443475893
+without_Domain_Length,0.9009897393988922
+without_Number_of_dots_in_URL,0.9182602379006628
+without_URL_Digit_Count,0.920793607554708
+without_URL_Letter_Count,0.9257513847271406
+without_Number_of_Special_Characters_in_URL,0.920366839190048
+without_Entropy,0.9349677653682011

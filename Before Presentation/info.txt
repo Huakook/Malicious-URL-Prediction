@@ -1,0 +1,11 @@
+1: features from ISCXURL2016
+2: URLs from ISCXURL2016
+
+python 1_analyze_ISCXURL2016.py
+python 1_test_accuracy.py
+python 2_analyze_All_URLs.py
+python 2_test_extract_url_features.py 
+python 2_predict.py 
+
+2 ->> getFeatureList1 in extract URL Feature class
+4 ->> getFeatureList2 in extract URL Feature class
